@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  cursor: pointer;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f7;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  overflow: hidden;
+  border-radius: 30px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  margin: 0 auto;
+  width: 80%;
+}
+#container .hp {
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 60px;
+}
+#container .hp .hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#container .hp .hdr .nym {
+  text-transform: uppercase;
+  -webkit-text-decoration: rgb(243, 240, 240) wavy;
+          text-decoration: rgb(243, 240, 240) wavy;
+  text-shadow: 2px 2px 15px #da7a3a;
+}
+
+.itm1 {
+  box-shadow: 6px 6px 10px #d1d1d1;
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itm1 .sbitm1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itm2 {
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 6px 6px 10px #d1d1d1;
+}
+.itm2 .sbitm2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itm3 {
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 6px 6px 10px #d1d1d1;
+}
+.itm3 .sbitm3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div > p {
+  padding-left: 10px;
+}
+
+input[type=button] {
+  width: 100px;
+  height: 30px;
+  margin-left: 270px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ee5a24;
+  color: #f2f2f7;
+}
+input[type=button]:hover {
+  transition: all 1s;
+  background: aqua;
+  cursor: pointer;
+  transform: scaleX(1.2);
+  color: rgb(9, 43, 75);
+}
+
+box {
+  display: block;
+}
+
+.box > div {
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#pic1 > img {
+  box-shadow: 2px 27px 64px -18px rgba(194, 226, 255, 0.54);
+  -webkit-box-shadow: 2px 27px 64px -18px rgba(194, 226, 255, 0.54);
+  -moz-box-shadow: 2px 27px 64px -18px rgba(194, 226, 255, 0.54);
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: all 1s;
+}
+#pic1 > img:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+svg {
+  color: #ff5252;
+}
+
+#pic1 {
+  display: grid;
+  place-content: center;
+}
+
+select {
+  border: none;
+  padding: 15px;
+}/*# sourceMappingURL=app.css.map */
